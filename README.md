@@ -6,10 +6,9 @@
 ## Table of Contents
 
 - [Description](#description)
-- [Files](#files)
 - [Dataset](#dataset)
 - [Models](#models)
-- [Reports](#reports)
+- [Files and Reports](#Files and Reports)
 - [Contact](#contact)
 
 ## Description
@@ -43,7 +42,7 @@ model selection, model evaluation, cross-validation and hyperparameter tuning, a
 The goal is not just to develop an effective model but also to understand the variables influencing income levels and provide insights for policy-making.
 
 
-## Reports
+## Files and Reports
 
 - Progress Report: 
 - Final Report: 
