@@ -28,7 +28,7 @@ Welcome to the repository for our group project in COMP 6721. The objective of t
 
 ## Data
 
-The dataset used in this project is the "Adult Census Income" dataset obtained from Kaggle, also we provide it in this repository "adult.csv". More on obtaining the dataset, [click here](#obtaining-the-dataset).
+The dataset used in this project is the "Adult Census Income" dataset obtained from [Kaggle](https://www.kaggle.com/datasets/uciml/adult-census-income?resource=download), also we provide it in this repository "adult.csv". More on obtaining the dataset, [click here](#obtaining-the-dataset).
 
 
 ### Data Preprocessing
@@ -91,9 +91,9 @@ Note that we are not explaining how to run the pre-trained model on the provided
 
 ## Obtaining the Dataset
 
-The dataset used in this project is the "Adult Census Income" dataset obtained from Kaggle. It contains information about individuals, including various demographic and socio-economic features. The dataset comprises 48,842 observations and includes features such as age, education, marital status, occupation, and more. The income variable is the target, indicating whether an individual's income exceeds a certain threshold. here is the link to the Kaggle where you can find this dataset and download it. https://www.kaggle.com/datasets/uciml/adult-census-income?resource=download; however you could find the sample test dataset which is the csv file on our github. 
+The dataset used in this project is the "Adult Census Income" dataset obtained from [Kaggle](https://www.kaggle.com/datasets/uciml/adult-census-income?resource=download). It contains information about individuals, including various demographic and socio-economic features. The dataset comprises 48,842 observations and includes features such as age, education, marital status, occupation, and more. The income variable is the target, indicating whether an individual's income exceeds a certain threshold. here is the [link to the Kaggle](https://www.kaggle.com/datasets/uciml/adult-census-income?resource=download). where you can find this dataset and download it; however you could find the sample test dataset which is the csv file on our github. 
 
-To obtain the dataset, download it from the available download link provided by Kaggle. Preprocess the dataset as described in the "Final_Code.ipynb" at pre-processing section before using it for training and evaluation.
+To obtain the dataset, download it from the available download link provided by [Kaggle](https://www.kaggle.com/datasets/uciml/adult-census-income?resource=download). Preprocess the dataset as described in the "Final_Code.ipynb" at pre-processing section before using it for training and evaluation.
 
 ## Files and Reports
 
