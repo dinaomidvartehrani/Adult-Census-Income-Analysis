@@ -28,9 +28,12 @@ Welcome to the repository for our group project in COMP 6721. The objective of t
 
 ## Data
 
-The dataset used in this project is the "Adult Census Income" dataset obtained from [Kaggle](https://www.kaggle.com/datasets/uciml/adult-census-income?resource=download), also we provide it in this repository "adult.csv". More on obtaining the dataset, [click here](#obtaining-the-dataset).
+The dataset used in this project is the "Adult Census Income" dataset obtained from [Kaggle](https://www.kaggle.com/datasets/uciml/adult-census-income?resource=download), we provide it in this repository "adult.csv". More on obtaining the dataset, [click here](#obtaining-the-dataset).
 
+Here are the sample test dataset of adult.csv : 
 
+![Alt Text](SampleTestDataset.png)
+![Alt Text](SampleTestDatasetMore.png)
 ### Data Preprocessing
 
 Before training the models, we performed data preprocessing to ensure the dataset's quality and suitability for analysis. The preprocessing steps included handling missing values, encoding categorical variables, and addressing class imbalance. By carefully addressing these issues, we aimed to enhance the accuracy and reliability of the models' predictions.
