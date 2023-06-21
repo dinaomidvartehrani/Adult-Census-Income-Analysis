@@ -97,6 +97,22 @@ To obtain the dataset, download it from the available download link provided by 
 
 ## Files and Reports
 
+- **Final_Code.ipynb**: Jupyter Notebook file containing the final implementation code of the project; "Data Pre-Processing," "Supervised learning Classification with Decision Trees," "Semi-supervised learning Classification with Decision Trees," and "Supervised learning Classification with a deep learning model."
+
+- **Final_Report_G06.pdf**: PDF file presenting the final report of the project, including abstract,introduction, methodology, results.
+
+- **LICENSE**: License file specifying the terms and conditions for using the code and resources in this repository.
+
+- **Presentation.pptx**: PowerPoint presentation file summarizing the key aspects of the project.
+
+- **Progress_G06.pdf**: PDF file representing the progress report documenting the project's progress.
+
+- **Proposal_G06.pdf**: PDF file containing the initial proposal outlining the project objectives and methodology.
+
+- **README.md**: The README file you are currently reading, providing an overview of the project.
+
+- **adult.csv**: CSV file containing the dataset used in the project, comprising information about individuals and their socio-economic factors.
+
 
 ## Contact
 
