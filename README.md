@@ -20,7 +20,7 @@ The expectations are to develop a model, identify influential factors, evaluate 
 
 ## Dataset
 The data is the Adult Census Income dataset from Kaggle. It contains approximately 48,842 instances, each with 15 features and a target variable indicating income level. 
-The features cover a broad spectrum of demographic and work-related information.
+The features cover a broad spectrum of demographic and work-related information. here is the link to the Kaggle where you can find this dataset and download it. https://www.kaggle.com/datasets/uciml/adult-census-income?resource=download; however you could find the sample test dataset which is the csv file on our github. 
 
 
 ## Models
@@ -85,3 +85,82 @@ Possible Methodology:
 The proposed methodology includes data preprocessing (handling missing values, encoding categorical variables, normalizing numerical features), exploratory data analysis, 
 model selection, model evaluation, cross-validation and hyperparameter tuning, and analysis of results.
 The goal is not just to develop an effective model but also to understand the variables influencing income levels and provide insights for policy-making. -->
+
+
+
+
+
+# COMP 6721 - Project : Adult Census Income Analysis
+## Group 06 
+
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+## Table of Contents
+
+- [Description](#description)
+- [High-Level Description](#high-level-description)
+- [Requirements](#requirements)
+- [Training and Validation](#training-and-validation)
+- [Running Pre-trained Model](#running-pre-trained-model)
+- [Source Code](#source-code)
+- [Dataset](#dataset)
+- [References](#references)
+
+## Description
+
+This repository contains the code and resources for our group project in [Course Name]. The project focuses on income classification using a supervised approach with decision tree, semi-supervised learning, and deep neural network models. The objective is to classify income based on a dataset containing 15 features.
+
+## High-Level Description
+
+The project aims to classify income levels based on socio-economic factors. It utilizes a decision tree model, a semi-supervised learning algorithm, and a deep neural network model. The decision tree model makes decisions based on specific features, the semi-supervised learning algorithm leverages both labeled and unlabeled data, and the deep neural network model extracts complex patterns and representations from the data. Each model demonstrates significant accuracy in income classification.
+
+
+## Requirements
+
+To run the Python code in this project, the following libraries are required:
+- Python 
+- Scikit-learn 
+- PyTorch 
+
+The specific versions of these libraries are not mentioned as the project was implemented in Google Colab, which provides the necessary libraries and their compatible versions. The code should work without any issues on Google Colab with the default library versions provided.
+
+
+## Running the Code in Google Colab
+To run the code, follow these instructions:
+1. Open the "Final_Code.ipynb" in Google Colab.
+2. Click on the "Open in Colab" button to import the notebook into your Google Colab environment.
+3. Upload the "adult.csv" dataset to your Google Colab environment.
+4. Run the code cells in the notebook sequentially to execute the code step by step.
+
+The project is divided into different sections, such as "Data Pre-Processing," "Supervised learning Classification with Decision Trees," "Semi-supervised learning Classification with Decision Trees," and "Supervised learning Classification with a deep learning model." You can access each section individually by opening the corresponding notebook file.
+
+## Training and Validation
+
+To train and validate the models, we have follow these steps that you could find them in "Final_Code.ipynb" :
+1. Preprocess the dataset by handling missing values, categorical data encoding, and addressing class imbalance.
+2. Run the decision tree model by executing the appropriate Python script (`decision_tree.py`). Adjust the hyperparameters such as max_depth, min_samples_leaf, and min_samples_split for better performance.
+3. Execute the semi-supervised learning algorithm by running the corresponding Python script (`semi_supervised.py`). Fine-tune the hyperparameters, including confidence_threshold, to optimize the algorithm's performance.
+4. Train the deep neural network model using the PyTorch framework. Run the Python script (`deep_neural_network.py`), ensuring that the dataset is properly preprocessed and the model architecture is defined.
+5. Evaluate the trained models using appropriate metrics such as accuracy, precision, recall, and F1-score.
+## Source Code
+
+The source code for this project is organized into two packages:
+- Scikit-learn package: Contains the implementation of the decision tree model and the semi-supervised learning algorithm. The package includes Python scripts such as `decision_tree.py` and `semi_supervised.py`.
+- PyTorch package: Contains the implementation of the deep neural network model. The package includes a Python script `deep_neural_network.py` that defines the model architecture and handles the training process.
+
+Ensure that the required libraries, Scikit-learn and PyTorch, are properly installed before running the code.
+
+## Dataset
+
+The dataset used in this project is the "Adult Census Income" dataset obtained from the UCI Machine Learning Repository. It contains information about individuals, including various demographic and socio-economic features. The dataset comprises 48,842 observations and includes features such as age, education, marital status, occupation, and more. The income variable is the target, indicating whether an individual's income exceeds a certain threshold.
+
+To obtain the dataset, download it from the available download link provided by the UCI Machine Learning Repository. Preprocess the dataset as described in the "Training and Validation" section before using it for training and evaluation.
+
+## References
+
+[1] Roland Fiagbe, "Classification of Adult Income Using Decision Tree"
+
+Ensure to include appropriate references and citations for any external sources used in your project.
+
+Note: Replace the placeholder values such as version numbers (X.X.X) and filenames with the actual details of your project.
+
