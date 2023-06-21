@@ -28,7 +28,8 @@ Welcome to the repository for our group project in COMP 6721. The objective of t
 
 ## Data
 
-The dataset used in this project is the "Adult Census Income" dataset obtained from Kaggle, also we provide it in this repository "adult.csv". More on Obtaining the dataset, here(#obtaining_the_dataset).
+The dataset used in this project is the "Adult Census Income" dataset obtained from Kaggle, also we provide it in this repository "adult.csv". More on obtaining the dataset, [click here](#obtaining-the-dataset).
+
 
 ### Data Preprocessing
 
