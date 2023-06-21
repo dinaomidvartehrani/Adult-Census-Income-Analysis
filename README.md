@@ -127,9 +127,9 @@ To obtain the dataset, download it from the available download link provided by 
 
 - **SampleTestDataset.png**: A few lines of the adult.csv to present the data.
 
-- **SampleTestDatasetMore.png**: A few lines of the adult.csv to present the data.
+- **SampleTestDatasetMore.png**: A few lines of the adult.csv to present the data, containing records 1 to 55.
 
-- **Contribution_G06.pdf**: One page that includes the contribution statement.
+- **Contribution_G06.pdf**: One page that includes the contribution statement, containing records 3829 to 3883 to illustrate our data more clearly.
 
 - **Video** : A download link to your video presentation
 
