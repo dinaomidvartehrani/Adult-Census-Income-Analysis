@@ -17,19 +17,6 @@ The goal is to predict income levels (<=50K or >50K) based on various factors, i
 The challenges to be overcome include handling missing data, class imbalance, feature engineering, and interpreting the results. 
 The expectations are to develop a model, identify influential factors, evaluate model performance, compare different methodologies, and generate actionable insights.
 
-## Files
-
-DNN Model.ipynb
-DNN.ipynb
-LICENSE
-Pre_processing.ipynb
-Presentation-withsemi.pptx
-Presentation.pptx
-Progress_G06.pdf
-Proposal_G06.pdf
-Semi Supervised Learnng.ipynb
-Supervised learning Classification with Decision Trees.ipynb
-adult.csv
 
 ## Dataset
 The data is the Adult Census Income dataset from Kaggle. It contains approximately 48,842 instances, each with 15 features and a target variable indicating income level. 
@@ -43,10 +30,39 @@ The goal is not just to develop an effective model but also to understand the va
 
 
 ## Files and Reports
+One-page proposal 
+Progress Report 
+Final Report 
+Readme ( link to github and link be video ) 
+Sample test dataset
+One-page contribution
+Presentation Slides
+Final Presentation ( video ) 
 
-- Progress Report: 
-- Final Report: 
-- Final Presentation: .
+git hub :: high level description / presentation of the project 
+requirements to run your Python code 
+instruction on how to train / validate your model 
+instruction on how to run the pre-trained model on the provided sample test dataset 
+your source code package in Scikit-learn and PyTorch 
+description on how to obtain the dataset from an available download link 
+
+
+
+
+
+
+
+DNN Model.ipynb
+DNN.ipynb
+LICENSE
+Pre_processing.ipynb
+Presentation-withsemi.pptx
+Presentation.pptx
+Progress_G06.pdf
+Proposal_G06.pdf
+Semi Supervised Learnng.ipynb
+Supervised learning Classification with Decision Trees.ipynb
+adult.csv.
 
 
 
