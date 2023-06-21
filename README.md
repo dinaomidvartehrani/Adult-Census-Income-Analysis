@@ -6,118 +6,54 @@
 ## Table of Contents
 
 - [Description](#description)
-- [Dataset](#dataset)
+- [Data](#data)
+  - [Data Preprocessing](#data-preprocessing)
+  - [Features](#features)
 - [Models](#models)
-- [Files and Reports](#Files and Reports)
+  - [Decision Tree Model](#decision-tree-model)
+  - [Semi-Supervised Learning Model](#semi-supervised-learning-model)
+  - [Deep Neural Network Model](#deep-neural-network-model)
+- [Requirements](#requirements)
+- [Running the Code in Google Colab](#running-the-code-in-google-colab)
+- [Training and Validation](#training-and-validation)
+- [Obtaining the Dataset](#obtaining-the-dataset)
+- [Files and Reports](#files-and-reports)
 - [Contact](#contact)
 
+
+
 ## Description
 
-The goal is to predict income levels (<=50K or >50K) based on various factors, including age, education, occupation, marital status, etc. 
-The challenges to be overcome include handling missing data, class imbalance, feature engineering, and interpreting the results. 
-The expectations are to develop a model, identify influential factors, evaluate model performance, compare different methodologies, and generate actionable insights.
+Welcome to the repository for our group project in COMP 6721. The objective of this project is to analyze and classify income levels based on a dataset of socio-economic factors. We have employed various machine learning models, including a decision tree model, a semi-supervised learning model, and a deep neural network model. This analysis can provide valuable insights into income classification and contribute to related fields such as finance, social sciences, and market research.
 
+## Data
 
-## Dataset
-The data is the Adult Census Income dataset from Kaggle. It contains approximately 48,842 instances, each with 15 features and a target variable indicating income level. 
-The features cover a broad spectrum of demographic and work-related information. here is the link to the Kaggle where you can find this dataset and download it. https://www.kaggle.com/datasets/uciml/adult-census-income?resource=download; however you could find the sample test dataset which is the csv file on our github. 
+The dataset used in this project is the "Adult Census Income" dataset obtained from Kaggle, also we provide it in this repository "adult.csv". More on Obtaining the dataset, here(#obtaining_the_dataset).
 
+### Data Preprocessing
+
+Before training the models, we performed data preprocessing to ensure the dataset's quality and suitability for analysis. The preprocessing steps included handling missing values, encoding categorical variables, and addressing class imbalance. By carefully addressing these issues, we aimed to enhance the accuracy and reliability of the models' predictions.
+
+### Features
+
+The dataset used in this project contains 15 features related to individuals' socio-economic factors. These features include age, education, marital status, occupation, and more. Each feature provides valuable information for income classification and contributes to the models' decision-making process.
 
 ## Models
-The proposed methodology includes data preprocessing (handling missing values, encoding categorical variables, normalizing numerical features), exploratory data analysis, 
-model selection, model evaluation, cross-validation and hyperparameter tuning, and analysis of results.
-The goal is not just to develop an effective model but also to understand the variables influencing income levels and provide insights for policy-making.
 
+In this project, we have implemented three different models to classify income levels based on the provided dataset. Each model offers unique characteristics and approaches to income classification.
 
-## Files and Reports
-One-page proposal 
-Progress Report 
-Final Report 
-Readme ( link to github and link be video ) 
-Sample test dataset
-One-page contribution
-Presentation Slides
-Final Presentation ( video ) 
+### Decision Tree Model
 
-git hub :: high level description / presentation of the project 
-requirements to run your Python code 
-instruction on how to train / validate your model 
-instruction on how to run the pre-trained model on the provided sample test dataset 
-your source code package in Scikit-learn and PyTorch 
-description on how to obtain the dataset from an available download link 
+The decision tree model utilizes a hierarchical structure to make decisions based on specific features. It recursively splits the data based on feature thresholds, resulting in a tree-like structure that provides interpretable rules for income classification. The decision tree model offers a balance between accuracy and interpretability, making it a valuable tool for understanding the factors influencing income levels.
 
+### Semi-Supervised Learning Model
 
+The semi-supervised learning model takes advantage of both labeled and unlabeled data to improve classification accuracy. Initially, the model is trained using the available labeled data. It then leverages the trained model to predict labels for the unlabeled data and assigns pseudo-labels based on these predictions. By iteratively updating the labeled dataset with high-confidence predictions, the model enhances its understanding of the data and improves classification performance.
 
+### Deep Neural Network Model
 
+The deep neural network (DNN) model utilizes multiple interconnected layers with nonlinear activation functions to extract complex patterns and representations from the data. The DNN model leverages its ability to learn hierarchical features and non-linear transformations to achieve high accuracy in income classification. Although the DNN model may have higher computational complexity, it provides good performance in capturing intricate relationships within the dataset.
 
-
-
-DNN Model.ipynb
-DNN.ipynb
-LICENSE
-Pre_processing.ipynb
-Presentation-withsemi.pptx
-Presentation.pptx
-Progress_G06.pdf
-Proposal_G06.pdf
-Semi Supervised Learnng.ipynb
-Supervised learning Classification with Decision Trees.ipynb
-adult.csv.
-
-
-
-## Contact
-
-For any inquiries or questions regarding the project, please feel free to contact:
-
-- Dina Omidvar: [dinaomidvar1377@gmail.com]
-- Niloofar Tavakolian: [niltavakolian@gmail.com]
-- Nastaran Naseri: [naseri.nastaran@hotmail.com]
-- Seyedeh Mojdeh Haghighat Hosseini: [mozhde.2h@gmail.com]
-
-
-
-
-
-
-
-
-# COMP 6721 - Project : Adult Census Income Analysis
-## Group 06 
-
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-
-## Table of Contents
-
-- [Description](#description)
-- [High-Level Description](#high-level-description)
-- [Requirements](#requirements)
-- [Training and Validation](#training-and-validation)
-- [Running Pre-trained Model](#running-pre-trained-model)
-- [Source Code](#source-code)
-- [Dataset](#dataset)
-- [References](#references)
-
-## Description
-
-This repository contains the code and resources for our group project in [Course Name]. The project focuses on income classification using a supervised approach with decision tree, semi-supervised learning, and deep neural network models. The objective is to classify income based on a dataset containing 15 features.
-
-## High-Level Description
-
-The project aims to classify income levels based on socio-economic factors. It utilizes a decision tree model, a semi-supervised learning algorithm, and a deep neural network model. The decision tree model makes decisions based on specific features, the semi-supervised learning algorithm leverages both labeled and unlabeled data, and the deep neural network model extracts complex patterns and representations from the data. Each model demonstrates significant accuracy in income classification.
-### Description
-
-The goal is to predict income levels (<=50K or >50K) based on various factors, including age, education, occupation, marital status, etc. 
-The challenges to be overcome include handling missing data, class imbalance, feature engineering, and interpreting the results. 
-The expectations are to develop a model, identify influential factors, evaluate model performance, compare different methodologies, and generate actionable insights.
-
-
-
-
-### Models
-The proposed methodology includes data preprocessing (handling missing values, encoding categorical variables, normalizing numerical features), exploratory data analysis, 
-model selection, model evaluation, cross-validation and hyperparameter tuning, and analysis of results.
-The goal is not just to develop an effective model but also to understand the variables influencing income levels and provide insights for policy-making.
 
 
 ## Requirements
@@ -154,9 +90,18 @@ Note that we are not explaining how to run the pre-trained model on the provided
 
 ## Obtaining the Dataset
 
-The dataset used in this project is the "Adult Census Income" dataset obtained from the UCI Machine Learning Repository. It contains information about individuals, including various demographic and socio-economic features. The dataset comprises 48,842 observations and includes features such as age, education, marital status, occupation, and more. The income variable is the target, indicating whether an individual's income exceeds a certain threshold. here is the link to the Kaggle where you can find this dataset and download it. https://www.kaggle.com/datasets/uciml/adult-census-income?resource=download; however you could find the sample test dataset which is the csv file on our github. 
+The dataset used in this project is the "Adult Census Income" dataset obtained from Kaggle. It contains information about individuals, including various demographic and socio-economic features. The dataset comprises 48,842 observations and includes features such as age, education, marital status, occupation, and more. The income variable is the target, indicating whether an individual's income exceeds a certain threshold. here is the link to the Kaggle where you can find this dataset and download it. https://www.kaggle.com/datasets/uciml/adult-census-income?resource=download; however you could find the sample test dataset which is the csv file on our github. 
 
-To obtain the dataset, download it from the available download link provided by the UCI Machine Learning Repository. Preprocess the dataset as described in the "Final_Code.ipynb" at pre-processing section before using it for training and evaluation.
+To obtain the dataset, download it from the available download link provided by Kaggle. Preprocess the dataset as described in the "Final_Code.ipynb" at pre-processing section before using it for training and evaluation.
+
+## Files and Reports
 
 
+## Contact
 
+For any inquiries or questions regarding the project, please feel free to contact:
+
+- Dina Omidvar: [dinaomidvar1377@gmail.com]
+- Niloofar Tavakolian: [niltavakolian@gmail.com]
+- Nastaran Naseri: [naseri.nastaran@hotmail.com]
+- Seyedeh Mojdeh Haghighat Hosseini: [mozhde.2h@gmail.com]
