@@ -4,7 +4,8 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
-
+- [GitHub Link](#github-link)
+- [Video Presentation Link](#video-presentation-link)
 - [Description](#description)
 - [Data](#data)
   - [Data Preprocessing](#data-preprocessing)
@@ -19,6 +20,14 @@
 - [Obtaining the Dataset](#obtaining-the-dataset)
 - [Files and Reports](#files-and-reports)
 - [Contact](#contact)
+
+
+## GitHub Link
+
+Here is our [GitHub]([https://www.kaggle.com/datasets/uciml/adult-census-income?resource=download](https://github.com/dinaomidvartehrani/Applied-AI-.git)) page link : https://github.com/dinaomidvartehrani/Applied-AI-.git
+
+## Video Presentation Link
+
 
 
 
@@ -120,6 +129,9 @@ To obtain the dataset, download it from the available download link provided by 
 
 - **SampleTestDatasetMore.png**: A few lines of the adult.csv to present the data.
 
+- **Contribution_G06.pdf**: One page that includes the contribution statement.
+
+- **Video** : A download link to your video presentation
 
 
 
@@ -131,3 +143,5 @@ For any inquiries or questions regarding the project, please feel free to contac
 - Niloofar Tavakolian: [niltavakolian@gmail.com]
 - Nastaran Naseri: [naseri.nastaran@hotmail.com]
 - Seyedeh Mojdeh Haghighat Hosseini: [mozhde.2h@gmail.com]
+
+
