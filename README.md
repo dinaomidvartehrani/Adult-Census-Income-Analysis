@@ -116,6 +116,12 @@ To obtain the dataset, download it from the available download link provided by 
 
 - **adult.csv**: CSV file containing the dataset used in the project, comprising information about individuals and their socio-economic factors.
 
+- **SampleTestDataset.png**: A few lines of the adult.csv to present the data.
+
+- **SampleTestDatasetMore.png**: A few lines of the adult.csv to present the data.
+
+
+
 
 ## Contact
 
