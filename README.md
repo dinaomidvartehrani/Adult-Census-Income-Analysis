@@ -28,6 +28,7 @@ Here is our [GitHub]([https://www.kaggle.com/datasets/uciml/adult-census-income?
 
 ## Video Presentation Link
 
+We have provided the video of our presentation on our [GitHub]([https://www.kaggle.com/datasets/uciml/adult-census-income?resource=download](https://github.com/dinaomidvartehrani/Applied-AI-.git)). Also here is the link to access it: 
 
 
 
@@ -131,7 +132,7 @@ To obtain the dataset, download it from the available download link provided by 
 
 - **Contribution_G06.pdf**: One page that includes the contribution statement, containing records 3829 to 3883 to illustrate our data more clearly.
 
-- **Video** : A download link to your video presentation
+- **Presentation_Video_G06.mp4** : The video of our presentation.
 
 
 
