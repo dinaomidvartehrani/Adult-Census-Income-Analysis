@@ -118,6 +118,8 @@ To obtain the dataset, download it from the available download link provided by 
 
 - **Presentation.pptx**: PowerPoint presentation file summarizing the key aspects of the project.
 
+- **Presentation_G06.pdf** : PDF format of presentation file, summarizing the key aspects of the project.
+
 - **Progress_G06.pdf**: PDF file representing the progress report documenting the project's progress.
 
 - **Proposal_G06.pdf**: PDF file containing the initial proposal outlining the project objectives and methodology.
